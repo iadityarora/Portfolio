@@ -1,0 +1,439 @@
+/*header part */
+#header{
+    height:80vh;
+    opacity:0.9;
+    background-image: url(WhatsApp\ Image\ 2024-03-22\ at\ 17.16.40_07c106f3.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment:scroll;
+}
+/*horizontal list */
+.horizontal-list{
+list-style:none;
+padding-left: 0px;
+}
+.horizontal-list li{
+    display: inline-block;
+    margin: 0px 10px 10px 0px;
+}
+.horizontal-list li a{
+    color: black;
+    text-decoration: none; 
+    transition: color 0.5s;
+}
+.horizontal-list li a:hover{
+    color: white;
+    border-bottom: 1px solid black;
+}
+.text-center{
+    text-align: center;
+}
+/*for name */
+#aditya{
+   font-size: 50px;
+  text-align: center;
+  margin-top: 100px;
+}
+/* adding social icons */
+
+/*adding images  */
+
+section{
+    width: 100%;
+    height:100vh;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+   
+section:nth-child(2n){
+    background-color: lightgrey;
+}
+section:nth-child(2n+1){
+    background-color: white;
+}
+
+#about{
+    height: auto;
+    width: 100%;
+    position: relative;
+
+}
+
+
+#my-image{
+    height: 12rem;
+    width: 12rem;
+    margin: auto;
+    margin-top: -10vh;
+}
+#my-image img{
+    height:100%;
+    width: 100%;
+    border-radius: 50%;
+}
+#intro{
+    text-align: center;
+    font-size: large;
+}
+
+/*skills section */
+
+#skills{
+    text-align: center;
+
+}
+.section-heading{
+    width:auto;
+    padding: 20px 10px 10px;
+    /*margin: 10px auto;*/
+    font-weight: 400px;
+}
+
+.section-heading span{
+    font-size: 40px;
+    color: #2857a4;
+    display: inline-block;
+    padding-top: 10px;
+    margin-right: 0.5rem;
+}
+.skill-display{
+    width: 80%;
+    height: auto;
+   /* border: 2px solid black;*/
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-between; 
+    overflow-wrap:break-word;
+
+}
+.skill-progress{
+    width: 7rem;
+    height: 1.4rem;
+    border-radius: 20px 20px 20px 20px;
+    background-color:white;
+    border-radius: 0.8 rem;
+   /*border: 2px solid black;*/
+}
+.skill-progress>div{
+    border-radius: 20px 20px 20px 20px;
+}
+
+.mb-blue{
+    background-color: #2857a4;
+}
+
+/*eighty five percent class*/
+.eighty-five-percent {
+    width:85%;
+    height: inherit;
+
+}
+
+.skill-name span{
+    color:white;
+    font-size: 1rem;
+    margin-left: 5px;
+}
+
+
+/* for second skill html */
+.skill-progress1{
+    width: 7rem;
+    height: 1.4rem;
+    border-radius: 20px 20px 20px 20px;
+    background-color:white;
+    border-radius: 0.8 rem;
+   /*border: 2px solid black;*/
+}
+.skill-progress1>div{
+    border-radius: 20px 20px 20px 20px;
+}
+
+.mb-orange{
+    background-color:orange;
+}
+
+.ninty_percent {
+    width:90%;
+    height: inherit;
+}
+
+.skill-name span{
+    color:white;
+    font-size: 1rem;
+    margin-left: 5px;
+}
+
+/*for third skill css */
+
+.skill-progress2{
+    width: 7rem;
+    height: 1.4rem;
+    border-radius: 20px 20px 20px 20px;
+    background-color:white;
+    border-radius: 0.8 rem;
+   /*border: 2px solid black;*/
+}
+.skill-progress2>div{
+    border-radius: 20px 20px 20px 20px;
+}
+
+.mb-yellow{
+    background-color:yellow;
+}
+
+.ninty_five_percent {
+    width:95%;
+    height: inherit;
+}
+
+.skill-name span{
+    color:white;
+    font-size: 1rem;
+    margin-left: 5px;
+}
+
+
+/*for forth skill js */
+
+.skill-progress3{
+    width: 7rem;
+    height: 1.4rem;
+    border-radius: 20px 20px 20px 20px;
+    background-color:white;
+    border-radius: 0.8 rem;
+   /*border: 2px solid black;*/
+}
+.skill-progress3>div{
+    border-radius: 20px 20px 20px 20px;
+}
+
+.mb-pink{
+    background-color:pink;
+}
+
+/*eighty five percent class*/
+.seventy_five_percent {
+    width:75%;
+    height: inherit;
+
+}
+
+.skill-name3 span{
+    color:white;
+    font-size: 1rem;
+    margin-left: 5px;
+}
+/*this div is only for the gap between skills */
+
+.skill-display1{
+    height: 10%;
+    width: auto;
+}
+/* for second line skills */
+.skill-display2{
+    width: 80%;
+    height: auto;
+  /*  border: 2px solid black;*/
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-between; 
+   
+}
+/*for react*/
+
+.skill-progress4{
+    width: 7rem;
+    height: 1.4rem;
+    border-radius: 20px 20px 20px 20px;
+    background-color:white;
+    border-radius: 0.8 rem;
+   /*border: 2px solid black;*/
+}
+.skill-progress4>div{
+    border-radius: 20px 20px 20px 20px;
+}
+
+.mb-grey{
+    background-color:grey;
+}
+
+/*seventy percent class*/
+.seventy_percent {
+    width:70%;
+    height: inherit;
+
+}
+
+.skill-name4 span{
+    color:white;
+    font-size: 1rem;
+    margin-left: 5px;
+}
+
+/*for python*/
+
+
+.skill-progress5{
+    width: 7rem;
+    height: 1.4rem;
+    border-radius: 20px 20px 20px 20px;
+    background-color:white;
+    border-radius: 0.8 rem;
+   /*border: 2px solid black;*/
+}
+.skill-progress5>div{
+    border-radius: 20px 20px 20px 20px;
+}
+
+.mb-green{
+    background-color:lightgreen;
+}
+
+/*seventy percent class*/
+.seventy_nine_percent {
+    width:79%;
+    height: inherit;
+
+}
+
+.skill-name5 span{
+    color:white;
+    font-size: 1rem;
+    margin-left: 5px;
+}
+
+/*for os*/
+
+.skill-progress6{
+    width: 7rem;
+    height: 1.4rem;
+    border-radius: 20px 20px 20px 20px;
+    background-color:white;
+    border-radius: 0.8 rem;
+   /*border: 2px solid black;*/
+}
+.skill-progress6>div{
+    border-radius: 20px 20px 20px 20px;
+}
+
+.mb-skyblue{
+    background-color:skyblue;
+}
+
+/*ninty three percent class*/
+.ninty_three_percent {
+    width:93%;
+    height: inherit;
+
+}
+
+.skill-name6 span{
+    color:white;
+    font-size: 1rem;
+    margin-left: 5px;
+}
+
+/* for sql */
+
+.skill-progress7{
+    width: 7rem;
+    height: 1.4rem;
+    border-radius: 20px 20px 20px 20px;
+    background-color:white;
+    border-radius: 0.8 rem;
+   /*border: 2px solid black;*/
+}
+.skill-progress7>div{
+    border-radius: 20px 20px 20px 20px;
+}
+
+.mb-purple{
+    background-color:purple;
+}
+
+/*95 percent class*/
+.ninty_five_percent {
+    width:93%;
+    height: inherit;
+
+}
+
+.skill-name7 span{
+    color:white;
+    font-size: 1rem;
+    margin-left: 5px;
+}
+
+/* projects education and certificate*/
+.timeline{
+    position: relative;
+    width:75%;
+    height: 70%;
+ /*   border: 2px solid black; */
+}
+
+.timeline-box{
+    position:relative;
+    margin: 5px;
+    width: 40%;
+    height:auto;
+    left: 5%;
+    min-height: 90px;
+ /*   border: 2px solid black; */
+}
+.timeline-box:nth-child(2n){
+    left:53%;
+
+}
+.timeline-divider{
+    position: absolute;
+    height: 75%;
+    width: 0%;
+    border: 3px dashed #0096fa6b;
+    top: 10%;
+    left: 50%;
+}
+@media screen and (max-width:600px){
+    .timeline-divider{
+        left: 5%;
+    }
+    .timeline-box{
+        left: 12% !important;
+        width: 80%;
+    }
+
+}
+.timeline-traveller{
+    position: sticky;
+    top: 25%;
+    transform: rotate(90deg);
+}
+
+/*for contact section */
+.gradient{
+    width: 100%;
+    height: 100%;
+    margin: 40px;
+   /* border: 2px solid black;*/
+    background-image:linear-gradient(white,blue)
+}
+
+.contact-section{
+    margin-left: 10%;
+   margin-top: 10%;
+
+}
+
+.details{
+    height: 40%;
+    width: 40%;
+ /*   border: 2px solid black; */
+    margin-left: 50%;
+    margin-top: -10%;
+    color: white;
+
+
+}
+
